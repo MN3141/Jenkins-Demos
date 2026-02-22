@@ -5,11 +5,10 @@ packages=(
     gcc-arm-none-eabi
     build-essential
     make
+    remake
     gdb-multiarch
+    python3
 )
 
-# Non-interactive mode
-export DEBIAN_FRONTEND=noninteractive
-
-sudo aptt update
+sudo apt update
 sudo apt install -y "${packages[@]}"
