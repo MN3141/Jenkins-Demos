@@ -4,4 +4,11 @@ import pandas
 import matplotlib
 import requests
 
-print("All required libraries are imported successfully.")
+
+def main():
+
+    x = 10
+    print("All required libraries are imported successfully.")
+
+if __name__ == "__main__":
+    main()
